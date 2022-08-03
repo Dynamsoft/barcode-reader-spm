@@ -20,3 +20,14 @@ The following links might help you on exploring the full feature of the library:
 - [How to specify a region](https://www.dynamsoft.com/barcode-reader/docs/core/programming/features/barcode-scan-region-mobile.html?lang=objc,swift&&ver=latest)
 - [How to customize the UI](https://www.dynamsoft.com/barcode-reader/docs/mobile/programming/objectivec-swift/ui-configurations.html?ver=latest)
 - [Exploring more features](https://www.dynamsoft.com/barcode-reader/docs/mobile/programming/objectivec-swift/user-guide/explore-features/index.html?ver=latest)
+- [API references](https://www.dynamsoft.com/barcode-reader/docs/mobile/programming/objectivec-swift/api-reference/index.html?ver=latest)
+
+## Licensing
+
+- Dynamsoft Barcode Reader needs a valid license to work.
+- A one-day trial license is available by default for every new device to try Dynamsoft Capture Vision.
+- You can <a href="https://www.dynamsoft.com/customer/license/trialLicense?product=dbr&package=mobile&utm_source=github" target="_blank"> request a 30-day free trial license</a> via Dynamsoft customer portal for further evaluation.
+
+## Contact us
+
+https://www.dynamsoft.com/company/contact/
