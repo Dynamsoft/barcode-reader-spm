@@ -10,7 +10,7 @@ Dynamsoft Barcode Reader supports all the common barcode formats including oneD,
 
 ## How to Use
 
-You can get started with our [user guide](https://www.dynamsoft.com/barcode-reader/docs/mobile/programming/objectivec-swift/user-guide.html?ver=latest) or view our [samples](https://github.com/Dynamsoft/barcode-reader-mobile-samples/tree/main/ios/Swift) on GitHub.
+You can get started with our [user guide](https://www.dynamsoft.com/barcode-reader/docs/mobile/programming/objectivec-swift/user-guide.html?ver=latest) or view our [samples](https://github.com/Dynamsoft/barcode-reader-mobile-samples/tree/main/ios/) on GitHub.
 
 The following links might help you on exploring the full feature of the library:
 
