@@ -19,13 +19,13 @@ let package = Package(
     dependencies: [
     ],
     targets: [
-        .binaryTarget(name: "DynamsoftCore", url: "https://download2.dynamsoft.com/xcframeworks/dynamsoft-core-ios-3.4.20-xcframework.zip", checksum: "db17156df7bf31efa7ce15f532d1a6a43e07951afd54fc9b77d942e4ed81af5e"),
+        .binaryTarget(name: "DynamsoftCore", url: "https://download2.dynamsoft.com/xcframeworks/dynamsoft-core-ios-3.4.30-xcframework.zip", checksum: "38bc98b783f8523fb2d89d635ec0a21fddccaaf641429f932c526809cc96598e"),
         .binaryTarget(name: "DynamsoftLicense", url: "https://download2.dynamsoft.com/xcframeworks/dynamsoft-license-ios-3.4.40-xcframework.zip", checksum: "7516ba9c5d6e330885b738031fd76fa5ef46c1167d159b5aac703a9ca412f62d"),
-        .binaryTarget(name: "DynamsoftCameraEnhancer", url: "https://download2.dynamsoft.com/xcframeworks/dynamsoft-cameraenhancer-ios-4.2.20-xcframework.zip", checksum: "fd1a894a12a698b83b1cd9ef3cf892d4bc9ae1bb402f3616010ddbac8f619b08"),
-        .binaryTarget(name: "DynamsoftImageProcessing", url: "https://download2.dynamsoft.com/xcframeworks/dynamsoft-imageprocessing-ios-2.4.20-xcframework.zip", checksum: "f1d325c61e2de175c00dfd566c0a1ac714c50a13fea4812ca786a9027dd512bb"),
-        .binaryTarget(name: "DynamsoftBarcodeReader", url: "https://download2.dynamsoft.com/xcframeworks/dynamsoft-barcodereader-ios-10.4.20-xcframework.zip", checksum: "dd8a0d12ba5f2f7339f91870faec7ca8a8c9779b8da93488cab0e1c0d31ef5f4"),
-        .binaryTarget(name: "DynamsoftUtility", url: "https://download2.dynamsoft.com/xcframeworks/dynamsoft-utility-ios-1.4.20-xcframework.zip", checksum: "47b913f26da1f3416be924fc9fd70f8779722a551d2d191307c1a885c447c4c2"),
-        .binaryTarget(name: "DynamsoftCaptureVisionRouter", url: "https://download2.dynamsoft.com/xcframeworks/dynamsoft-capturevisionrouter-ios-2.4.21-xcframework.zip", checksum: "9e44d32e5a037c977f9d3bf2edbdf81917d09d7392ee6b8c3c40e6203f7d8f97"),
-        .binaryTarget(name: "DynamsoftBarcodeReaderBundle", url: "https://download2.dynamsoft.com/xcframeworks/dynamsoft-barcodereader-bundle-ios-10.4.2003-xcframework.zip", checksum: "6079a01d638b048addb3f6e40ee1bdcb387af25dc66c6fa6cca578464ef377f1"),
+        .binaryTarget(name: "DynamsoftCameraEnhancer", url: "https://download2.dynamsoft.com/xcframeworks/dynamsoft-cameraenhancer-ios-4.2.23-xcframework.zip", checksum: "d4b16f42358a9d706da80049b994ed214a54aa6fa1904ea52f2265246b808a24"),
+        .binaryTarget(name: "DynamsoftImageProcessing", url: "https://download2.dynamsoft.com/xcframeworks/dynamsoft-imageprocessing-ios-2.4.30-xcframework.zip", checksum: "94cded5f38b3c2d001108250e63311aabbae536e2265384b75335986ebaf50a7"),
+        .binaryTarget(name: "DynamsoftBarcodeReader", url: "https://download2.dynamsoft.com/xcframeworks/dynamsoft-barcodereader-ios-10.4.30-xcframework.zip", checksum: "04730bdcf5a56b03eab9374af381dbaa172c63c1aee9d577b461c57f168fee65"),
+        .binaryTarget(name: "DynamsoftUtility", url: "https://download2.dynamsoft.com/xcframeworks/dynamsoft-utility-ios-1.4.30-xcframework.zip", checksum: "22886725562e2c82d8f20ee80f06b45efabd58b41fbfe54dbd7b1f8d7e5a6d5b"),
+        .binaryTarget(name: "DynamsoftCaptureVisionRouter", url: "https://download2.dynamsoft.com/xcframeworks/dynamsoft-capturevisionrouter-ios-2.4.30-xcframework.zip", checksum: "6b229d800e907a4cb7ae18267c618d91d97cb5e9a5fd4fdb054e3724ea3e0b06"),
+        .binaryTarget(name: "DynamsoftBarcodeReaderBundle", url: "https://download2.dynamsoft.com/xcframeworks/dynamsoft-barcodereader-bundle-ios-10.4.3000-xcframework.zip", checksum: "9395e96a1c079b10647737eda28fcbb1425e4db4600b145114e1bfeb9d431666"),
     ]
 )
