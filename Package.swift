@@ -26,7 +26,7 @@ let package = Package(
         .binaryTarget(name: "DynamsoftBarcodeReader", url: "https://download2.dynamsoft.com/xcframeworks/dynamsoft-barcodereader-ios-10.4.30-xcframework.zip", checksum: "04730bdcf5a56b03eab9374af381dbaa172c63c1aee9d577b461c57f168fee65"),
         .binaryTarget(name: "DynamsoftUtility", url: "https://download2.dynamsoft.com/xcframeworks/dynamsoft-utility-ios-1.4.30-xcframework.zip", checksum: "22886725562e2c82d8f20ee80f06b45efabd58b41fbfe54dbd7b1f8d7e5a6d5b"),
         .binaryTarget(name: "DynamsoftCaptureVisionRouter", url: "https://download2.dynamsoft.com/xcframeworks/dynamsoft-capturevisionrouter-ios-2.4.30-xcframework.zip", checksum: "6b229d800e907a4cb7ae18267c618d91d97cb5e9a5fd4fdb054e3724ea3e0b06"),
-        .binaryTarget(name: "DynamsoftBarcodeReaderBundle", url: "https://download2.dynamsoft.com/xcframeworks/dynamsoft-barcodereader-bundle-ios-10.4.3001-xcframework.zip", checksum: "be68272a84d37abecaf9b9df77886b0fa7d028e9a0cad93e62073e95fe3389c0"),
+        .binaryTarget(name: "DynamsoftBarcodeReaderBundle", url: "https://download2.dynamsoft.com/xcframeworks/dynamsoft-barcodereader-bundle-ios-10.4.3002-xcframework.zip", checksum: "65944d1b7c1f031d15142c2baeb01b827c5ee2bcfae9e8a185ab52396b29f8f5"),
     ]
 )
 
