@@ -13,8 +13,8 @@ let package = Package(
     dependencies: [
     ],
     targets: [
-        .binaryTarget(name: "DynamsoftCaptureVisionBundle", url: "https://download2.dynamsoft.com/xcframeworks/dynamsoft-capturevision-bundle-ios-3.0.3000-xcframework.zip", checksum: "29c9e30ca15d1241a615d3ef6c830639d1721dc310d26b4c9b2b5d4bf19c81a5"),
-        .binaryTarget(name: "DynamsoftBarcodeReaderBundle", url: "https://download2.dynamsoft.com/xcframeworks/dynamsoft-barcodereader-bundle-ios-11.0.3000-xcframework.zip", checksum: "a0e1f901140ddc66625d11673724c72309fc57ab30cdba759ec66fbe5113578c"),
+        .binaryTarget(name: "DynamsoftCaptureVisionBundle", url: "https://download2.dynamsoft.com/xcframeworks/dynamsoft-capturevision-bundle-ios-3.0.5000-xcframework.zip", checksum: "ac42f72563e5d268c4cb71d353f09d63705ddbd26ec2d3e589adee8497cc775f"),
+        .binaryTarget(name: "DynamsoftBarcodeReaderBundle", url: "https://download2.dynamsoft.com/xcframeworks/dynamsoft-barcodereader-bundle-ios-11.0.5000-xcframework.zip", checksum: "0ec9ae4c10f33a595c7c7ea67349cf7f7d8cb564c842218bc5e8dac8f6423454"),
     ]
 )
 
