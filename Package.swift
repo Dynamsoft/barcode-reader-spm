@@ -7,16 +7,23 @@ let package = Package(
     name: "DynamsoftBarcodeReader",
     platforms: [.iOS(.v13)],
     products: [
-        .library(name: "DynamsoftCaptureVisionBundle", targets: ["DynamsoftCaptureVisionBundle"]),
-        .library(name: "DynamsoftBarcodeReaderBundle", targets: ["DynamsoftBarcodeReaderBundle"]),
+        .library(name: "DynamsoftBarcodeReader", targets: ["DynamsoftBarcodeReader"]),
     ],
     dependencies: [
+        .package(url: "https://github.com/Dynamsoft/capture-vision-spm.git", from: "3.2.1000")
     ],
     targets: [
-        .binaryTarget(name: "DynamsoftCaptureVisionBundle", url: "https://download2.dynamsoft.com/xcframeworks/dynamsoft-capturevision-bundle-ios-3.0.5200-xcframework.zip", checksum: "9a0cd5b63e7846603b49d88c6703b378f4d3c44e44a56348a21cb6064d4b4ba7"),
-        .binaryTarget(name: "DynamsoftBarcodeReaderBundle", url: "https://download2.dynamsoft.com/xcframeworks/dynamsoft-barcodereader-bundle-ios-11.0.5200-xcframework.zip", checksum: "22d05747c0b510d04a664922740c00df0bfb277f777b4945e4ad63a8f4cde180"),
+        .binaryTarget(
+            name: "DynamsoftBarcodeReaderBundle", 
+            url: "https://download2.dynamsoft.com/xcframeworks/dynamsoft-barcodereader-bundle-ios-11.2.1000-xcframework.zip", 
+            checksum: "c24a91a087746b09154abadbd759cabf4e902be74a1c974fe91339a3612e8a9f"
+        ),
+        .target(
+            name: "DynamsoftBarcodeReader",
+            dependencies: [
+                "DynamsoftBarcodeReaderBundle",
+                .product(name: "DynamsoftCaptureVisionBundle", package: "capture-vision-spm")
+            ],
+        )
     ]
 )
-
-
-
