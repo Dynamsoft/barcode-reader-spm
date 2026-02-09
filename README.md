@@ -18,7 +18,7 @@ The following links might help you on exploring the full feature of the library:
 - [How to read barcodes from an image](https://www.dynamsoft.com/capture-vision/docs/mobile/programming/ios/api-reference/capture-vision-router/single-file-processing.html?product=dbr&lang=objc,swift)
 - [How to read barcodes from video](https://www.dynamsoft.com/barcode-reader/docs/core/programming/features/read-video-streaming-mobile.html?lang=objc,swift&&ver=latest)
 - [How to specify a region](https://www.dynamsoft.com/barcode-reader/docs/core/programming/features/barcode-scan-region-mobile.html?lang=objc,swift&&ver=latest)
-- [How to customize the UI](https://www.dynamsoft.com/barcode-reader/docs/mobile/programming/objectivec-swift/ui-configurations.html?ver=latest)
+- [How to customize the UI](https://www.dynamsoft.com/barcode-reader/docs/mobile/programming/objectivec-swift/user-guide/ui-configurations.html?ver=latest)
 - [Exploring more features](https://www.dynamsoft.com/barcode-reader/docs/mobile/programming/objectivec-swift/user-guide/explore-features/index.html?ver=latest)
 - [API references](https://www.dynamsoft.com/barcode-reader/docs/mobile/programming/objectivec-swift/api-reference/index.html?ver=latest)
 
