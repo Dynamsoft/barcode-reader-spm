@@ -10,13 +10,13 @@ let package = Package(
         .library(name: "DynamsoftBarcodeReader", targets: ["DynamsoftBarcodeReader"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Dynamsoft/capture-vision-spm.git", from: "3.4.1000")
+        .package(url: "https://github.com/Dynamsoft/capture-vision-spm.git", from: "3.4.1200")
     ],
     targets: [
         .binaryTarget(
             name: "DynamsoftBarcodeReaderBundle", 
-            url: "https://download2.dynamsoft.com/xcframeworks/dynamsoft-barcodereader-bundle-ios-11.4.1010-xcframework.zip", 
-            checksum: "6c4873a4adee2ecd30d13c0470408fe6582ad6d700d4083b750ecc4ac7552bcd"
+            url: "https://download2.dynamsoft.com/xcframeworks/dynamsoft-barcodereader-bundle-ios-11.4.1200-xcframework.zip", 
+            checksum: "ab7b8d18fde9444e484b088d60d5014bdd59a90e4b554ec887959874d49beb0e"
         ),
         .target(
             name: "DynamsoftBarcodeReader",
